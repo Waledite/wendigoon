@@ -1,0 +1,20 @@
+/* wendigoon css style sheet*/
+
+/* navbar segment */
+/* navbar end */
+
+
+/* body segment */
+
+* {
+  box-sizing: border-box;
+}
+
+body {  
+  background: #FFC0CB;
+  font-family: 'Hind', sans-serif;
+  background-image: url("scary_woods.jpg");
+}
+
+/* body end */
+

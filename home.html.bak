@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+<title>Wendigoon Home</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="wendigoon_nav.css">
+  <link rel="stylesheet" href="wendigoon_gal.css">
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head> 
+  
+<body>  
+
+
+<!-- Start Navigation Bar -->
+
+<nav class="navbar">
+
+  
+           <!-- space -->
+
+  <ul class="menu">
+    
+     <li>
+      <a href="#">Home</a>
+    </li>
+    
+    
+             <!-- space -->
+
+    <li>
+      <a class="hasDropdown" href="#">Merch <i class="fa fa-angle-down"></i></a>
+      <ul class="container">
+        <div class="container__list">
+                       <!-- link to sections -->
+
+          <div class="container__listItem">
+            <div>Clothes</div>
+          </div>
+          <div class="container__listItem">
+            <div>Figurines</div>
+          </div>
+          <div class="container__listItem">
+            <div>Posters</div>
+          </div>
+          <div class="container__listItem">
+            <div>Stickers</div>
+          </div>
+     
+      </ul>
+    </li>
+     <!-- space -->
+      
+    <li>
+      <a class="hasDropdown" href="#">Gallery/Playlists <i class="fa fa-angle-down"></i></a>
+      <ul class="container has-multi">
+        <div class="container__list container__list-multi">
+                                 <!-- link to playlists -->
+
+          <div class="container__listItem">
+            <div>Gallery</div>
+          </div>
+           <div class="container__listItem">
+            <div>Shots</div>
+          </div>
+          <div class="container__listItem">
+            <div>Conspiracy Theory Iceberg</div>
+          </div>
+          <div class="container__listItem">
+            <div>Weird History</div>
+          </div>
+         
+         
+        </div>
+        
+        <div class="container__list container__list-multi">
+           <div class="container__listItem">
+            <div>The Divine Comedy</div>
+          </div>
+          <div class="container__listItem">
+            <div>ARG Analysis</div>
+          </div>
+          <div class="container__listItem">
+            <div>Serial Killer Iceberg</div>
+          </div>
+          <div class="container__listItem">
+            <div>Sunday Studies</div>
+          </div>
+          
+        </div>
+        
+        <div class="container__list container__list-multi">
+          <div class="container__listItem">
+            <div>Whiteboard</div>
+          </div>
+          <div class="container__listItem">
+            <div>Deeper Dive</div>
+          </div>
+          <div class="container__listItem">
+            <div>Stand-alone Icebergs</div>
+          </div>
+          <div class="container__listItem">
+            <div>Missing 411</div>
+          </div>
+          
+        </div>
+        
+      </ul>
+    </li>
+         <!-- space -->
+
+    
+    
+    <li>
+      <a href="#">About</a>
+    </li>
+    
+    </ul>
+</nav>
+<!-- End Navigation Bar -->
+
+
+<script>
+var counter = 1;
+ setInterval(function(){
+   document.getElementById('radio' + counter).checked = true;
+   counter++;
+     if(counter > 4){
+       counter = 1;
+     }
+ }, 5000);
+</script>
+
+
+
+<!--image slider start-->
+<div class="slider">
+  <div class="slides">
+   <!--radio buttons start-->
+     <input type="radio" name="radio-btn" id="radio1">
+     <input type="radio" name="radio-btn" id="radio2">
+     <input type="radio" name="radio-btn" id="radio3">
+     <input type="radio" name="radio-btn" id="radio4">
+   <!--radio buttons end-->
+
+   <!--slide images start-->
+   <div class="slide first">
+   
+<!--    <div class="bitch"> -->
+
+   <figcaption class="figcaption"><a href="https://youtu.be/4T6mwZd1T9M">Join me as we discuss mysteries of the Brown Mountain Lights</a><span>Youtube Video</span></figcaption>
+   
+     <!-- <a href="https://youtu.be/4T6mwZd1T9M">Join me as we discuss mysteries of the Brown Mountain Lights</a>
+	 <span>Youtube Video</span> -->
+	 <!-- </div> -->
+   		 			    
+     <img src="https://yt3.ggpht.com/yqaxNzHZDzbPqjsB3WdMj9HC8ULRwnQ5P8tu_b0KjtpTW8h8ohs7hT5vXUe9XTxX94J8Fth58Sskdw=s577-c-fcrop64=1,2ee50000be71ffff-nd-v1" alt="">
+	 
+	 	 
+   </div>
+   
+   
+   <div class="slide">
+      <img src="https://yt3.ggpht.com/Xzcgbr8NFOy-jEFdXm69Bue8azJ7EGKkgofJDPMlWo17YH0lNEcPGj4j5WEflsqm9DRxvSn7JzLaFQ=s1024-c-fcrop64=1,00000000ffffffff-nd-v1" alt="">
+	  
+   </div>
+   
+   <div class="slide">
+      <img src="https://yt3.ggpht.com/sRPGkTK4D5_baYtc65jA_OpTXGNFd3vg_59KctMQrPi1UD_UWVS8caVJAv1Low7EAqp08jhsJfL3xQ=s574-c-fcrop64=1,2b1d0000b9c7ffff-nd-v1" alt="">
+	  
+   </div>
+   
+   <div class="slide">
+      <img src="https://yt3.ggpht.com/BhMlvVW_XIBBt0U9xUyUnmj9obsI-BY1IGltP_grXHCYLr2ypZqhPFKXWIl7JjeGs2tIL1tCipMJ8w=s1024-c-fcrop64=1,00000000ffffffff-nd-v1" alt="">
+   </div>
+  <!--slide images end-->
+
+ </div>
+
+ <!--manual navigation start-->
+  <div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+  </div>
+ <!--manual navigation end-->
+</div> 
+<!--image slider end-->
+
+
+
+
+
+
+</body>
+</html>
+
+	<!-- <figcaption class="figcaption"><a href="https://youtu.be/4T6mwZd1T9M">Join me as we discuss mysteries of the Brown Mountain Lights</a><span>Youtube Video</span></figcaption> -->
